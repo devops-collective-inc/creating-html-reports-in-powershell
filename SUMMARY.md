@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](manuscirpt/readmemd.md)
+* [Introduction](README.md)
 * [HTML Report Basics](manuscript/html_report_basics.md)
 * [Gathering the Information](manuscript/gathering_the_information.md)
 * [Building the HTML](manuscript/chapter1.md)
