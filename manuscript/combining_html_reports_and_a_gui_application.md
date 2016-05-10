@@ -16,7 +16,7 @@ For the sake of illustration, let's say that's now in a file named C:\Report.htm
 
 I'll note that PowerShell Studio 2012 is very out-of-date at this point, but you should still get the general idea.
 
-![image006.png](image006.png)
+![image006.png](/manuscript/image006.png)
 
 I expect you'd make a form like this part of a larger overall project, but I'm just focusing on how to do this one bit. So I'll have the report load into the WebBrowser control when this form loads:
 
@@ -29,6 +29,6 @@ $OnLoadFormEvent={
 
 Now I can run the project:
 
-![image007.png](image007.png)
+![image007.png](/manuscript/image007.png)
 
 I get a nice pop-up dialog that displays the HTML report. I can resize it, minimize it, maximize it, and close it using the standard buttons on the window's title bar. Easy, and it only took 5 minutes to create.
