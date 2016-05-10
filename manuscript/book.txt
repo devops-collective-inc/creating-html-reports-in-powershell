@@ -1,4 +1,6 @@
 introduction.md
 html_report_basics.md
 gathering_the_information.md
-building
+building_the_html.md
+combining_html_reports_and_a_guide_application.md
+contacting_me.md
