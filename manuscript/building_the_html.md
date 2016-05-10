@@ -373,7 +373,7 @@ The uncommented code and commented code both do the same thing. The first one, u
 
 The final result is piped out to the file path I created earlier. The result:
 
-![image004.png](/manuscript/image004.png)
+![image004.png](images/image004.png)
 
 I have my two collapsed sections last. Notice that the process list is paginated, with Previous/Next buttons, and notice that my 80%-free disk is highlighted in red. The tables show 10 entries by default, but can be made larger, and they offer a built-in search box. Column headers are clickable for sorting purposes.
 
