@@ -26,6 +26,7 @@ The path and filename of the CSS template to use.
 .\New-HTMLSystemReport -ComputerName ONE,TWO `
                        -Path C:\Reports\ 
 #>
+function New-HTMLSystemReport
 [CmdletBinding()]
 param(
     [Parameter(Mandatory=$True,
