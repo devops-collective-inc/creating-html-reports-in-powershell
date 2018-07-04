@@ -53,7 +53,6 @@ The BEGIN block can technically be removed. I use this demo to test the module, 
 PROCESS {
 
 $style = @"
-<style>
 body {
     color:#333333;
     font-family:Calibri,Tahoma;
@@ -109,13 +108,12 @@ th {
     color:red;
     font-weight:bold;
 } 
-</style>
 "@
 ```
 
 That's called a Cascading Style Sheet, or CSS. There are a few cool things to pull out from this:
 
-I've jammed the entire `<style></style>` section into a _here-string_, and stored that in the variable $style. That'll make it easy to refer to this later.
+I've jammed the styling properties into a _here-string_, and stored that in the variable $style. That'll make it easy to refer to this later.
 
 Notice that I've defined styling for several HTML tags, such as H1, H2, BODY, and TH. Those style definitions list the tag name without a preceding period or hash sign. Inside curly brackets, you define the style elements you care about, such as font size, text alignment, and so on. Tags like H1 and H2 already have predefined styles set by your browser, like their font size; anything you put in the CSS will override the browser defaults.
 
