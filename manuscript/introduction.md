@@ -2,8 +2,6 @@
 
 By Don Jones
 
-Cover design by Nathan Vonnahme
-
 Learn to properly use ConvertTo-HTML to produce multi-section, well-formed HTML reports – but then go further with a custom EnhancedHTML module! Produce beautiful, color-coded, dynamic, multi-section reports easily and quickly. By Don Jones.
 
 This guide is released under the Creative Commons Attribution-NoDerivs 3.0 Unported License. The authors encourage you to redistribute this file as widely as possible, but ask that you do not modify the document.
