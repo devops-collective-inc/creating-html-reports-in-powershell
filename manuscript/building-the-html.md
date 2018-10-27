@@ -234,7 +234,7 @@ The above kicks off the main body of my demo script. It's taking whatever comput
         $filepath = Join-Path -Path $Path -ChildPath "$computer.html"
 ```
 
-Remember that this script's other parameter is `-Path`. I'm using `Join-Path` to combine `$Path` with a filename. `Join-Path` ensures the right number of backslashes, so that if `-Path` is "C:" or "C:\" I'll get a valid file path. The filename will be the current computer's name, followed by the .html filename extension.
+Remember that this script's other parameter is `-Path`. I'm using `Join-Path` to combine `$Path` with a filename. `Join-Path` ensures the right number of backslashes, so that if `-Path` is "C:" or "C:\\" I'll get a valid file path. The filename will be the current computer's name, followed by the .html filename extension.
 
 ```text
         $params = @{'As'='List';
@@ -356,7 +356,7 @@ The uncommented code and commented code both do the same thing. The first one, u
 
 The final result is piped out to the file path I created earlier. The result:
 
-![image004.png](.gitbook/assets/image004%20%281%29.png)
+![image004.png](../.gitbook/assets/image004%20%281%29.png)
 
 I have my two collapsed sections last. Notice that the process list is paginated, with Previous/Next buttons, and notice that my 80%-free disk is highlighted in red. The tables show 10 entries by default, but can be made larger, and they offer a built-in search box. Column headers are clickable for sorting purposes.
 
